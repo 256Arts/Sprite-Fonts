@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0717B325DF5B76001255CB /* DigitalDisco Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717B225DF5B76001255CB /* DigitalDisco Thin.ttf */; };
+		1B0717C325DF8465001255CB /* Generic Mobile System.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717BF25DF8465001255CB /* Generic Mobile System.ttf */; };
+		1B0717CA25DF856F001255CB /* Generic Mobile System O.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717C725DF856F001255CB /* Generic Mobile System O.ttf */; };
+		1B0717CB25DF856F001255CB /* Generic Mobile System Nuevo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717C825DF856F001255CB /* Generic Mobile System Nuevo.ttf */; };
+		1B0717CC25DF856F001255CB /* Generic Mobile System Nuevo O.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717C925DF856F001255CB /* Generic Mobile System Nuevo O.ttf */; };
+		1B0717CF25DF8F94001255CB /* Extrude.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717CE25DF8F94001255CB /* Extrude.ttf */; };
+		1B0717D525DF9283001255CB /* BitCasual.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717D425DF9283001255CB /* BitCasual.ttf */; };
+		1B0717D825DF932D001255CB /* CursivePixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717D725DF932D001255CB /* CursivePixel.ttf */; };
+		1B0717DB25DF93B8001255CB /* HelvetiPixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717DA25DF93B8001255CB /* HelvetiPixel.ttf */; };
+		1B0717DE25DF9452001255CB /* justabit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717DD25DF9452001255CB /* justabit.ttf */; };
+		1B0717E125DF9503001255CB /* KarenBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717E025DF9503001255CB /* KarenBook.ttf */; };
+		1B0717E425DF95B9001255CB /* OldWizard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717E325DF95B9001255CB /* OldWizard.ttf */; };
+		1B0717E725DF968B001255CB /* TimesNewPixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717E625DF968B001255CB /* TimesNewPixel.ttf */; };
+		1B0717EA25E023B2001255CB /* PxArt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717E925E023B2001255CB /* PxArt.ttf */; };
+		1B0717ED25E0266C001255CB /* TomAndJerry.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717EC25E0266C001255CB /* TomAndJerry.ttf */; };
+		1B0717F025E0272E001255CB /* MeleeSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717EF25E0272E001255CB /* MeleeSans.ttf */; };
+		1B0717F325E028F6001255CB /* RobotY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717F225E028F6001255CB /* RobotY.ttf */; };
+		1B0717F625E02AE0001255CB /* Disrespectful.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717F525E02AE0001255CB /* Disrespectful.ttf */; };
+		1B0717F925E02B72001255CB /* OwlsNInk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717F825E02B72001255CB /* OwlsNInk.ttf */; };
+		1B0717FD25E0302B001255CB /* Born2bSporty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0717FC25E0302B001255CB /* Born2bSporty.ttf */; };
+		1B07183725E373A9001255CB /* BetterPixels.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07183625E373A9001255CB /* BetterPixels.ttf */; };
+		1B07183A25E373BB001255CB /* SirClive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07183925E373BB001255CB /* SirClive.ttf */; };
+		1B07183D25E373C6001255CB /* TheWall.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07183C25E373C6001255CB /* TheWall.ttf */; };
+		1B07184025E373D3001255CB /* Minimal4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07183F25E373D3001255CB /* Minimal4.ttf */; };
+		1B07184325E375E3001255CB /* PixelMechaBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07184225E375E3001255CB /* PixelMechaBold.ttf */; };
+		1B07184625E376BE001255CB /* SylladexFanon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07184525E376BE001255CB /* SylladexFanon.ttf */; };
+		1B07184925E37716001255CB /* littleLightPixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07184825E37716001255CB /* littleLightPixel.ttf */; };
+		1B07184C25E378A8001255CB /* SquareSounds.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07184B25E378A8001255CB /* SquareSounds.ttf */; };
+		1B07184F25E378BC001255CB /* Generic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07184E25E378BC001255CB /* Generic.ttf */; };
+		1B07185225E37A06001255CB /* ImpactBits.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07185125E37A06001255CB /* ImpactBits.ttf */; };
+		1B07185525E37AD4001255CB /* BasicHandwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07185425E37AD4001255CB /* BasicHandwriting.ttf */; };
+		1B07185825E37B77001255CB /* ldcBlackRound.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07185725E37B77001255CB /* ldcBlackRound.ttf */; };
+		1B07185B25E37BBB001255CB /* PixieKid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07185A25E37BBB001255CB /* PixieKid.ttf */; };
+		1B07185E25E37CD6001255CB /* blocks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07185D25E37CD6001255CB /* blocks.ttf */; };
+		1B07186125E37D47001255CB /* Oskool.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B07186025E37D47001255CB /* Oskool.ttf */; };
+		1B07186525E38280001255CB /* WelcomeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B07186425E38280001255CB /* WelcomeKit */; };
+		1B0A5E4425DB669000688A8A /* SpriteFontsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A5E4325DB669000688A8A /* SpriteFontsApp.swift */; };
+		1B0A5E4625DB669000688A8A /* AllFamiliesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A5E4525DB669000688A8A /* AllFamiliesView.swift */; };
+		1B0A5E4825DB66A900688A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E4725DB66A900688A8A /* Assets.xcassets */; };
+		1B0A5E4B25DB66A900688A8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E4A25DB66A900688A8A /* Preview Assets.xcassets */; };
+		1B0A5E5525DB67E500688A8A /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A5E5425DB67E500688A8A /* FontFamily.swift */; };
+		1B0A5E7225DB846A00688A8A /* FamilyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A5E7125DB846A00688A8A /* FamilyDetailView.swift */; };
+		1B0A5E7525DB8ACA00688A8A /* LabeledValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A5E7425DB8ACA00688A8A /* LabeledValue.swift */; };
+		1B0A5E7C25DBA09F00688A8A /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A5E7B25DBA09F00688A8A /* FilterView.swift */; };
+		1B0A5E7F25DC49DB00688A8A /* FontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A5E7E25DC49DA00688A8A /* FontProvider.swift */; };
+		1B0A5E8325DC78CD00688A8A /* ConfirmationHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8225DC78CD00688A8A /* ConfirmationHUD.swift */; };
+		1B0A5E9C25DCA18900688A8A /* Press Start 2P.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8625DCA18800688A8A /* Press Start 2P.ttf */; };
+		1B0A5E9D25DCA18900688A8A /* VCR OSD Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8725DCA18800688A8A /* VCR OSD Mono.ttf */; };
+		1B0A5E9E25DCA18900688A8A /* Comicoro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8825DCA18800688A8A /* Comicoro.ttf */; };
+		1B0A5E9F25DCA18900688A8A /* CyborgSister.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8925DCA18800688A8A /* CyborgSister.ttf */; };
+		1B0A5EA025DCA18900688A8A /* 8-bit Arcade Out.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8A25DCA18800688A8A /* 8-bit Arcade Out.ttf */; };
+		1B0A5EA125DCA18900688A8A /* Piacevoli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8B25DCA18800688A8A /* Piacevoli.ttf */; };
+		1B0A5EA225DCA18900688A8A /* Pixerif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8C25DCA18800688A8A /* Pixerif.ttf */; };
+		1B0A5EA325DCA18900688A8A /* Dogica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8D25DCA18800688A8A /* Dogica.ttf */; };
+		1B0A5EA425DCA18900688A8A /* Kapel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8E25DCA18800688A8A /* Kapel.ttf */; };
+		1B0A5EA525DCA18900688A8A /* Notepen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E8F25DCA18800688A8A /* Notepen.ttf */; };
+		1B0A5EA625DCA18900688A8A /* Pixeled.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9025DCA18900688A8A /* Pixeled.ttf */; };
+		1B0A5EA725DCA18900688A8A /* Alkhemikal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9125DCA18900688A8A /* Alkhemikal.ttf */; };
+		1B0A5EA825DCA18900688A8A /* Forma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9225DCA18900688A8A /* Forma.ttf */; };
+		1B0A5EA925DCA18900688A8A /* 8-bit Arcade In.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9325DCA18900688A8A /* 8-bit Arcade In.ttf */; };
+		1B0A5EAA25DCA18900688A8A /* Dogica Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9425DCA18900688A8A /* Dogica Bold.ttf */; };
+		1B0A5EAC25DCA18900688A8A /* ISL_ONYX.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9625DCA18900688A8A /* ISL_ONYX.ttf */; };
+		1B0A5EAD25DCA18900688A8A /* KiwiSoda.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9725DCA18900688A8A /* KiwiSoda.ttf */; };
+		1B0A5EAE25DCA18900688A8A /* DigitalDisco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9825DCA18900688A8A /* DigitalDisco.ttf */; };
+		1B0A5EAF25DCA18900688A8A /* OwreKynge.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9925DCA18900688A8A /* OwreKynge.ttf */; };
+		1B0A5EB025DCA18900688A8A /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9A25DCA18900688A8A /* Pixellari.ttf */; };
+		1B0A5EB125DCA18900688A8A /* Code.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5E9B25DCA18900688A8A /* Code.ttf */; };
+		1B0A5EC925DCB09D00688A8A /* W95FA.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EC825DCB09D00688A8A /* W95FA.otf */; };
+		1B0A5ECD25DCB0B300688A8A /* European Teletext Nuevo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5ECB25DCB0B300688A8A /* European Teletext Nuevo.ttf */; };
+		1B0A5ECE25DCB0B300688A8A /* European Teletext.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5ECC25DCB0B300688A8A /* European Teletext.ttf */; };
+		1B0A5ED125DCB76C00688A8A /* Gothic Pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5ED025DCB76C00688A8A /* Gothic Pixel.ttf */; };
+		1B0A5ED425DCB77800688A8A /* Silverfinster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5ED325DCB77800688A8A /* Silverfinster.ttf */; };
+		1B0A5ED725DCB78500688A8A /* ElfBoyClassic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5ED625DCB78500688A8A /* ElfBoyClassic.ttf */; };
+		1B0A5EDD25DCC1A700688A8A /* EnterCommand Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EDA25DCC1A700688A8A /* EnterCommand Bold.ttf */; };
+		1B0A5EDE25DCC1A700688A8A /* EnterCommand Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EDB25DCC1A700688A8A /* EnterCommand Italic.ttf */; };
+		1B0A5EDF25DCC1A700688A8A /* EnterCommand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EDC25DCC1A700688A8A /* EnterCommand.ttf */; };
+		1B0A5EE225DCC1B600688A8A /* PearSoda.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EE125DCC1B600688A8A /* PearSoda.ttf */; };
+		1B0A5EE525DCC1BE00688A8A /* PlanetaryContact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EE425DCC1BE00688A8A /* PlanetaryContact.ttf */; };
+		1B0A5EE825DCC1CA00688A8A /* Minitel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EE725DCC1CA00688A8A /* Minitel.ttf */; };
+		1B0A5EEB25DCC1D500688A8A /* LycheeSoda.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EEA25DCC1D500688A8A /* LycheeSoda.ttf */; };
+		1B0A5EEE25DCC1E000688A8A /* AprilSans.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EED25DCC1E000688A8A /* AprilSans.otf */; };
+		1B0A5EF325DCC1EE00688A8A /* Squarewave.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EF025DCC1EE00688A8A /* Squarewave.ttf */; };
+		1B0A5EF425DCC1EE00688A8A /* Squarewave Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EF125DCC1EE00688A8A /* Squarewave Italic.ttf */; };
+		1B0A5EF525DCC1EE00688A8A /* Squarewave Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EF225DCC1EE00688A8A /* Squarewave Bold.ttf */; };
+		1B0A5EF825DCC1FB00688A8A /* Half Eighties.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A5EF725DCC1FB00688A8A /* Half Eighties.ttf */; };
+		1B2D5407261652EA00EFDF2F /* FontSubmissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D5406261652EA00EFDF2F /* FontSubmissionView.swift */; };
+		1B43CF45261BB6CC00551740 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B43CF44261BB6CC00551740 /* UserDefaults.swift */; };
+		1BD927DE284A8677001329A9 /* JaydenCodeGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD927DD284A8677001329A9 /* JaydenCodeGenerator */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B0717B225DF5B76001255CB /* DigitalDisco Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DigitalDisco Thin.ttf"; sourceTree = "<group>"; };
+		1B0717BF25DF8465001255CB /* Generic Mobile System.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic Mobile System.ttf"; sourceTree = "<group>"; };
+		1B0717C725DF856F001255CB /* Generic Mobile System O.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic Mobile System O.ttf"; sourceTree = "<group>"; };
+		1B0717C825DF856F001255CB /* Generic Mobile System Nuevo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic Mobile System Nuevo.ttf"; sourceTree = "<group>"; };
+		1B0717C925DF856F001255CB /* Generic Mobile System Nuevo O.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic Mobile System Nuevo O.ttf"; sourceTree = "<group>"; };
+		1B0717CE25DF8F94001255CB /* Extrude.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Extrude.ttf; sourceTree = "<group>"; };
+		1B0717D425DF9283001255CB /* BitCasual.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BitCasual.ttf; sourceTree = "<group>"; };
+		1B0717D725DF932D001255CB /* CursivePixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CursivePixel.ttf; sourceTree = "<group>"; };
+		1B0717DA25DF93B8001255CB /* HelvetiPixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelvetiPixel.ttf; sourceTree = "<group>"; };
+		1B0717DD25DF9452001255CB /* justabit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = justabit.ttf; sourceTree = "<group>"; };
+		1B0717E025DF9503001255CB /* KarenBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KarenBook.ttf; sourceTree = "<group>"; };
+		1B0717E325DF95B9001255CB /* OldWizard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OldWizard.ttf; sourceTree = "<group>"; };
+		1B0717E625DF968B001255CB /* TimesNewPixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TimesNewPixel.ttf; sourceTree = "<group>"; };
+		1B0717E925E023B2001255CB /* PxArt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PxArt.ttf; sourceTree = "<group>"; };
+		1B0717EC25E0266C001255CB /* TomAndJerry.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TomAndJerry.ttf; sourceTree = "<group>"; };
+		1B0717EF25E0272E001255CB /* MeleeSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MeleeSans.ttf; sourceTree = "<group>"; };
+		1B0717F225E028F6001255CB /* RobotY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotY.ttf; sourceTree = "<group>"; };
+		1B0717F525E02AE0001255CB /* Disrespectful.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Disrespectful.ttf; sourceTree = "<group>"; };
+		1B0717F825E02B72001255CB /* OwlsNInk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OwlsNInk.ttf; sourceTree = "<group>"; };
+		1B0717FC25E0302B001255CB /* Born2bSporty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Born2bSporty.ttf; sourceTree = "<group>"; };
+		1B07183625E373A9001255CB /* BetterPixels.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BetterPixels.ttf; sourceTree = "<group>"; };
+		1B07183925E373BB001255CB /* SirClive.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirClive.ttf; sourceTree = "<group>"; };
+		1B07183C25E373C6001255CB /* TheWall.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheWall.ttf; sourceTree = "<group>"; };
+		1B07183F25E373D3001255CB /* Minimal4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minimal4.ttf; sourceTree = "<group>"; };
+		1B07184225E375E3001255CB /* PixelMechaBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelMechaBold.ttf; sourceTree = "<group>"; };
+		1B07184525E376BE001255CB /* SylladexFanon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SylladexFanon.ttf; sourceTree = "<group>"; };
+		1B07184825E37716001255CB /* littleLightPixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = littleLightPixel.ttf; sourceTree = "<group>"; };
+		1B07184B25E378A8001255CB /* SquareSounds.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SquareSounds.ttf; sourceTree = "<group>"; };
+		1B07184E25E378BC001255CB /* Generic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Generic.ttf; sourceTree = "<group>"; };
+		1B07185125E37A06001255CB /* ImpactBits.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImpactBits.ttf; sourceTree = "<group>"; };
+		1B07185425E37AD4001255CB /* BasicHandwriting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BasicHandwriting.ttf; sourceTree = "<group>"; };
+		1B07185725E37B77001255CB /* ldcBlackRound.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ldcBlackRound.ttf; sourceTree = "<group>"; };
+		1B07185A25E37BBB001255CB /* PixieKid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixieKid.ttf; sourceTree = "<group>"; };
+		1B07185D25E37CD6001255CB /* blocks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blocks.ttf; sourceTree = "<group>"; };
+		1B07186025E37D47001255CB /* Oskool.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oskool.ttf; sourceTree = "<group>"; };
+		1B0A5E4025DB669000688A8A /* Sprite Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprite Fonts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0A5E4325DB669000688A8A /* SpriteFontsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteFontsApp.swift; sourceTree = "<group>"; };
+		1B0A5E4525DB669000688A8A /* AllFamiliesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFamiliesView.swift; sourceTree = "<group>"; };
+		1B0A5E4725DB66A900688A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B0A5E4A25DB66A900688A8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B0A5E4C25DB66A900688A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0A5E5425DB67E500688A8A /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
+		1B0A5E6D25DB706000688A8A /* Sprite Fonts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sprite Fonts.entitlements"; sourceTree = "<group>"; };
+		1B0A5E7125DB846A00688A8A /* FamilyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyDetailView.swift; sourceTree = "<group>"; };
+		1B0A5E7425DB8ACA00688A8A /* LabeledValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledValue.swift; sourceTree = "<group>"; };
+		1B0A5E7B25DBA09F00688A8A /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		1B0A5E7E25DC49DA00688A8A /* FontProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProvider.swift; sourceTree = "<group>"; };
+		1B0A5E8225DC78CD00688A8A /* ConfirmationHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationHUD.swift; sourceTree = "<group>"; };
+		1B0A5E8625DCA18800688A8A /* Press Start 2P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Press Start 2P.ttf"; sourceTree = "<group>"; };
+		1B0A5E8725DCA18800688A8A /* VCR OSD Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VCR OSD Mono.ttf"; sourceTree = "<group>"; };
+		1B0A5E8825DCA18800688A8A /* Comicoro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comicoro.ttf; sourceTree = "<group>"; };
+		1B0A5E8925DCA18800688A8A /* CyborgSister.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CyborgSister.ttf; sourceTree = "<group>"; };
+		1B0A5E8A25DCA18800688A8A /* 8-bit Arcade Out.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-bit Arcade Out.ttf"; sourceTree = "<group>"; };
+		1B0A5E8B25DCA18800688A8A /* Piacevoli.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Piacevoli.ttf; sourceTree = "<group>"; };
+		1B0A5E8C25DCA18800688A8A /* Pixerif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixerif.ttf; sourceTree = "<group>"; };
+		1B0A5E8D25DCA18800688A8A /* Dogica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dogica.ttf; sourceTree = "<group>"; };
+		1B0A5E8E25DCA18800688A8A /* Kapel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kapel.ttf; sourceTree = "<group>"; };
+		1B0A5E8F25DCA18800688A8A /* Notepen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Notepen.ttf; sourceTree = "<group>"; };
+		1B0A5E9025DCA18900688A8A /* Pixeled.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixeled.ttf; sourceTree = "<group>"; };
+		1B0A5E9125DCA18900688A8A /* Alkhemikal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alkhemikal.ttf; sourceTree = "<group>"; };
+		1B0A5E9225DCA18900688A8A /* Forma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Forma.ttf; sourceTree = "<group>"; };
+		1B0A5E9325DCA18900688A8A /* 8-bit Arcade In.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-bit Arcade In.ttf"; sourceTree = "<group>"; };
+		1B0A5E9425DCA18900688A8A /* Dogica Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dogica Bold.ttf"; sourceTree = "<group>"; };
+		1B0A5E9625DCA18900688A8A /* ISL_ONYX.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ISL_ONYX.ttf; sourceTree = "<group>"; };
+		1B0A5E9725DCA18900688A8A /* KiwiSoda.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KiwiSoda.ttf; sourceTree = "<group>"; };
+		1B0A5E9825DCA18900688A8A /* DigitalDisco.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigitalDisco.ttf; sourceTree = "<group>"; };
+		1B0A5E9925DCA18900688A8A /* OwreKynge.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OwreKynge.ttf; sourceTree = "<group>"; };
+		1B0A5E9A25DCA18900688A8A /* Pixellari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixellari.ttf; sourceTree = "<group>"; };
+		1B0A5E9B25DCA18900688A8A /* Code.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Code.ttf; sourceTree = "<group>"; };
+		1B0A5EC825DCB09D00688A8A /* W95FA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W95FA.otf; sourceTree = "<group>"; };
+		1B0A5ECB25DCB0B300688A8A /* European Teletext Nuevo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "European Teletext Nuevo.ttf"; sourceTree = "<group>"; };
+		1B0A5ECC25DCB0B300688A8A /* European Teletext.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "European Teletext.ttf"; sourceTree = "<group>"; };
+		1B0A5ED025DCB76C00688A8A /* Gothic Pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gothic Pixel.ttf"; sourceTree = "<group>"; };
+		1B0A5ED325DCB77800688A8A /* Silverfinster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silverfinster.ttf; sourceTree = "<group>"; };
+		1B0A5ED625DCB78500688A8A /* ElfBoyClassic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ElfBoyClassic.ttf; sourceTree = "<group>"; };
+		1B0A5EDA25DCC1A700688A8A /* EnterCommand Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EnterCommand Bold.ttf"; sourceTree = "<group>"; };
+		1B0A5EDB25DCC1A700688A8A /* EnterCommand Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EnterCommand Italic.ttf"; sourceTree = "<group>"; };
+		1B0A5EDC25DCC1A700688A8A /* EnterCommand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EnterCommand.ttf; sourceTree = "<group>"; };
+		1B0A5EE125DCC1B600688A8A /* PearSoda.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PearSoda.ttf; sourceTree = "<group>"; };
+		1B0A5EE425DCC1BE00688A8A /* PlanetaryContact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlanetaryContact.ttf; sourceTree = "<group>"; };
+		1B0A5EE725DCC1CA00688A8A /* Minitel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minitel.ttf; sourceTree = "<group>"; };
+		1B0A5EEA25DCC1D500688A8A /* LycheeSoda.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LycheeSoda.ttf; sourceTree = "<group>"; };
+		1B0A5EED25DCC1E000688A8A /* AprilSans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AprilSans.otf; sourceTree = "<group>"; };
+		1B0A5EF025DCC1EE00688A8A /* Squarewave.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Squarewave.ttf; sourceTree = "<group>"; };
+		1B0A5EF125DCC1EE00688A8A /* Squarewave Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Squarewave Italic.ttf"; sourceTree = "<group>"; };
+		1B0A5EF225DCC1EE00688A8A /* Squarewave Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Squarewave Bold.ttf"; sourceTree = "<group>"; };
+		1B0A5EF725DCC1FB00688A8A /* Half Eighties.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Half Eighties.ttf"; sourceTree = "<group>"; };
+		1B2D5406261652EA00EFDF2F /* FontSubmissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSubmissionView.swift; sourceTree = "<group>"; };
+		1B43CF44261BB6CC00551740 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0A5E3D25DB669000688A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD927DE284A8677001329A9 /* JaydenCodeGenerator in Frameworks */,
+				1B07186525E38280001255CB /* WelcomeKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0A5E3725DB668F00688A8A = {
+			isa = PBXGroup;
+			children = (
+				1B0A5E4225DB669000688A8A /* Sprite Fonts */,
+				1B0A5E4125DB669000688A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B0A5E4125DB669000688A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0A5E4025DB669000688A8A /* Sprite Fonts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0A5E4225DB669000688A8A /* Sprite Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B0A5E6D25DB706000688A8A /* Sprite Fonts.entitlements */,
+				1B0A5E4325DB669000688A8A /* SpriteFontsApp.swift */,
+				1B0A5E4525DB669000688A8A /* AllFamiliesView.swift */,
+				1B2D5406261652EA00EFDF2F /* FontSubmissionView.swift */,
+				1B0A5E8225DC78CD00688A8A /* ConfirmationHUD.swift */,
+				1B0A5E7125DB846A00688A8A /* FamilyDetailView.swift */,
+				1B0A5E7425DB8ACA00688A8A /* LabeledValue.swift */,
+				1B0A5E7B25DBA09F00688A8A /* FilterView.swift */,
+				1B0A5E7E25DC49DA00688A8A /* FontProvider.swift */,
+				1B0A5E5425DB67E500688A8A /* FontFamily.swift */,
+				1B43CF44261BB6CC00551740 /* UserDefaults.swift */,
+				1B0A5E5725DB700F00688A8A /* Fonts */,
+				1B0A5E4725DB66A900688A8A /* Assets.xcassets */,
+				1B0A5E4C25DB66A900688A8A /* Info.plist */,
+				1B0A5E4925DB66A900688A8A /* Preview Content */,
+			);
+			path = "Sprite Fonts";
+			sourceTree = "<group>";
+		};
+		1B0A5E4925DB66A900688A8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B0A5E4A25DB66A900688A8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B0A5E5725DB700F00688A8A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B0A5E9325DCA18900688A8A /* 8-bit Arcade In.ttf */,
+				1B0A5E8A25DCA18800688A8A /* 8-bit Arcade Out.ttf */,
+				1B0A5E9125DCA18900688A8A /* Alkhemikal.ttf */,
+				1B0A5EED25DCC1E000688A8A /* AprilSans.otf */,
+				1B07185425E37AD4001255CB /* BasicHandwriting.ttf */,
+				1B07183625E373A9001255CB /* BetterPixels.ttf */,
+				1B0717D425DF9283001255CB /* BitCasual.ttf */,
+				1B07185D25E37CD6001255CB /* blocks.ttf */,
+				1B0717FC25E0302B001255CB /* Born2bSporty.ttf */,
+				1B0A5E9B25DCA18900688A8A /* Code.ttf */,
+				1B0A5E8825DCA18800688A8A /* Comicoro.ttf */,
+				1B0717D725DF932D001255CB /* CursivePixel.ttf */,
+				1B0A5E8925DCA18800688A8A /* CyborgSister.ttf */,
+				1B0717B225DF5B76001255CB /* DigitalDisco Thin.ttf */,
+				1B0A5E9825DCA18900688A8A /* DigitalDisco.ttf */,
+				1B0717F525E02AE0001255CB /* Disrespectful.ttf */,
+				1B0A5E9425DCA18900688A8A /* Dogica Bold.ttf */,
+				1B0A5E8D25DCA18800688A8A /* Dogica.ttf */,
+				1B0A5ED625DCB78500688A8A /* ElfBoyClassic.ttf */,
+				1B0A5EDA25DCC1A700688A8A /* EnterCommand Bold.ttf */,
+				1B0A5EDB25DCC1A700688A8A /* EnterCommand Italic.ttf */,
+				1B0A5EDC25DCC1A700688A8A /* EnterCommand.ttf */,
+				1B0A5ECB25DCB0B300688A8A /* European Teletext Nuevo.ttf */,
+				1B0A5ECC25DCB0B300688A8A /* European Teletext.ttf */,
+				1B0717CE25DF8F94001255CB /* Extrude.ttf */,
+				1B0A5E9225DCA18900688A8A /* Forma.ttf */,
+				1B0717C925DF856F001255CB /* Generic Mobile System Nuevo O.ttf */,
+				1B0717C825DF856F001255CB /* Generic Mobile System Nuevo.ttf */,
+				1B0717C725DF856F001255CB /* Generic Mobile System O.ttf */,
+				1B0717BF25DF8465001255CB /* Generic Mobile System.ttf */,
+				1B07184E25E378BC001255CB /* Generic.ttf */,
+				1B0A5ED025DCB76C00688A8A /* Gothic Pixel.ttf */,
+				1B0A5EF725DCC1FB00688A8A /* Half Eighties.ttf */,
+				1B0717DA25DF93B8001255CB /* HelvetiPixel.ttf */,
+				1B07185125E37A06001255CB /* ImpactBits.ttf */,
+				1B0A5E9625DCA18900688A8A /* ISL_ONYX.ttf */,
+				1B0717DD25DF9452001255CB /* justabit.ttf */,
+				1B0A5E8E25DCA18800688A8A /* Kapel.ttf */,
+				1B0717E025DF9503001255CB /* KarenBook.ttf */,
+				1B0A5E9725DCA18900688A8A /* KiwiSoda.ttf */,
+				1B07185725E37B77001255CB /* ldcBlackRound.ttf */,
+				1B07184825E37716001255CB /* littleLightPixel.ttf */,
+				1B0A5EEA25DCC1D500688A8A /* LycheeSoda.ttf */,
+				1B0717EF25E0272E001255CB /* MeleeSans.ttf */,
+				1B07183F25E373D3001255CB /* Minimal4.ttf */,
+				1B0A5EE725DCC1CA00688A8A /* Minitel.ttf */,
+				1B0A5E8F25DCA18800688A8A /* Notepen.ttf */,
+				1B0717E325DF95B9001255CB /* OldWizard.ttf */,
+				1B07186025E37D47001255CB /* Oskool.ttf */,
+				1B0717F825E02B72001255CB /* OwlsNInk.ttf */,
+				1B0A5E9925DCA18900688A8A /* OwreKynge.ttf */,
+				1B0A5EE125DCC1B600688A8A /* PearSoda.ttf */,
+				1B0A5E8B25DCA18800688A8A /* Piacevoli.ttf */,
+				1B0A5E9025DCA18900688A8A /* Pixeled.ttf */,
+				1B0A5E9A25DCA18900688A8A /* Pixellari.ttf */,
+				1B07184225E375E3001255CB /* PixelMechaBold.ttf */,
+				1B0A5E8C25DCA18800688A8A /* Pixerif.ttf */,
+				1B07185A25E37BBB001255CB /* PixieKid.ttf */,
+				1B0A5EE425DCC1BE00688A8A /* PlanetaryContact.ttf */,
+				1B0A5E8625DCA18800688A8A /* Press Start 2P.ttf */,
+				1B0717E925E023B2001255CB /* PxArt.ttf */,
+				1B0717F225E028F6001255CB /* RobotY.ttf */,
+				1B0A5ED325DCB77800688A8A /* Silverfinster.ttf */,
+				1B07183925E373BB001255CB /* SirClive.ttf */,
+				1B07184B25E378A8001255CB /* SquareSounds.ttf */,
+				1B0A5EF225DCC1EE00688A8A /* Squarewave Bold.ttf */,
+				1B0A5EF125DCC1EE00688A8A /* Squarewave Italic.ttf */,
+				1B0A5EF025DCC1EE00688A8A /* Squarewave.ttf */,
+				1B07184525E376BE001255CB /* SylladexFanon.ttf */,
+				1B07183C25E373C6001255CB /* TheWall.ttf */,
+				1B0717E625DF968B001255CB /* TimesNewPixel.ttf */,
+				1B0717EC25E0266C001255CB /* TomAndJerry.ttf */,
+				1B0A5E8725DCA18800688A8A /* VCR OSD Mono.ttf */,
+				1B0A5EC825DCB09D00688A8A /* W95FA.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0A5E3F25DB669000688A8A /* Sprite Fonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0A5E4F25DB66A900688A8A /* Build configuration list for PBXNativeTarget "Sprite Fonts" */;
+			buildPhases = (
+				1B0A5E3C25DB669000688A8A /* Sources */,
+				1B0A5E3D25DB669000688A8A /* Frameworks */,
+				1B0A5E3E25DB669000688A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sprite Fonts";
+			packageProductDependencies = (
+				1B07186425E38280001255CB /* WelcomeKit */,
+				1BD927DD284A8677001329A9 /* JaydenCodeGenerator */,
+			);
+			productName = "Sprite Fonts";
+			productReference = 1B0A5E4025DB669000688A8A /* Sprite Fonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0A5E3825DB668F00688A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1B0A5E3F25DB669000688A8A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1B0A5E3B25DB668F00688A8A /* Build configuration list for PBXProject "Sprite Fonts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B0A5E3725DB668F00688A8A;
+			packageReferences = (
+				1B07186325E38280001255CB /* XCRemoteSwiftPackageReference "WelcomeKit" */,
+				1BD927DC284A8677001329A9 /* XCRemoteSwiftPackageReference "JaydenCodeGenerator" */,
+			);
+			productRefGroup = 1B0A5E4125DB669000688A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0A5E3F25DB669000688A8A /* Sprite Fonts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B0A5E3E25DB669000688A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0A5EF325DCC1EE00688A8A /* Squarewave.ttf in Resources */,
+				1B0717E425DF95B9001255CB /* OldWizard.ttf in Resources */,
+				1B0A5EA425DCA18900688A8A /* Kapel.ttf in Resources */,
+				1B0A5EAC25DCA18900688A8A /* ISL_ONYX.ttf in Resources */,
+				1B0A5E4B25DB66A900688A8A /* Preview Assets.xcassets in Resources */,
+				1B0717CA25DF856F001255CB /* Generic Mobile System O.ttf in Resources */,
+				1B0A5EF825DCC1FB00688A8A /* Half Eighties.ttf in Resources */,
+				1B0717DE25DF9452001255CB /* justabit.ttf in Resources */,
+				1B0A5EB025DCA18900688A8A /* Pixellari.ttf in Resources */,
+				1B0A5E9F25DCA18900688A8A /* CyborgSister.ttf in Resources */,
+				1B0A5E4825DB66A900688A8A /* Assets.xcassets in Resources */,
+				1B07184325E375E3001255CB /* PixelMechaBold.ttf in Resources */,
+				1B0A5EF525DCC1EE00688A8A /* Squarewave Bold.ttf in Resources */,
+				1B0717FD25E0302B001255CB /* Born2bSporty.ttf in Resources */,
+				1B07185E25E37CD6001255CB /* blocks.ttf in Resources */,
+				1B0717F025E0272E001255CB /* MeleeSans.ttf in Resources */,
+				1B0A5EEB25DCC1D500688A8A /* LycheeSoda.ttf in Resources */,
+				1B0A5EDF25DCC1A700688A8A /* EnterCommand.ttf in Resources */,
+				1B07184C25E378A8001255CB /* SquareSounds.ttf in Resources */,
+				1B0A5EC925DCB09D00688A8A /* W95FA.otf in Resources */,
+				1B0A5EA325DCA18900688A8A /* Dogica.ttf in Resources */,
+				1B0A5EA725DCA18900688A8A /* Alkhemikal.ttf in Resources */,
+				1B07184925E37716001255CB /* littleLightPixel.ttf in Resources */,
+				1B0A5EA625DCA18900688A8A /* Pixeled.ttf in Resources */,
+				1B0717D825DF932D001255CB /* CursivePixel.ttf in Resources */,
+				1B0717EA25E023B2001255CB /* PxArt.ttf in Resources */,
+				1B0A5E9D25DCA18900688A8A /* VCR OSD Mono.ttf in Resources */,
+				1B0717CF25DF8F94001255CB /* Extrude.ttf in Resources */,
+				1B07185B25E37BBB001255CB /* PixieKid.ttf in Resources */,
+				1B0A5ED125DCB76C00688A8A /* Gothic Pixel.ttf in Resources */,
+				1B0717CB25DF856F001255CB /* Generic Mobile System Nuevo.ttf in Resources */,
+				1B0717F325E028F6001255CB /* RobotY.ttf in Resources */,
+				1B0A5EA025DCA18900688A8A /* 8-bit Arcade Out.ttf in Resources */,
+				1B07185225E37A06001255CB /* ImpactBits.ttf in Resources */,
+				1B0717E125DF9503001255CB /* KarenBook.ttf in Resources */,
+				1B0A5ECE25DCB0B300688A8A /* European Teletext.ttf in Resources */,
+				1B0717F625E02AE0001255CB /* Disrespectful.ttf in Resources */,
+				1B0717D525DF9283001255CB /* BitCasual.ttf in Resources */,
+				1B0A5EE825DCC1CA00688A8A /* Minitel.ttf in Resources */,
+				1B0A5EAE25DCA18900688A8A /* DigitalDisco.ttf in Resources */,
+				1B0717CC25DF856F001255CB /* Generic Mobile System Nuevo O.ttf in Resources */,
+				1B07183A25E373BB001255CB /* SirClive.ttf in Resources */,
+				1B0717E725DF968B001255CB /* TimesNewPixel.ttf in Resources */,
+				1B0A5EE525DCC1BE00688A8A /* PlanetaryContact.ttf in Resources */,
+				1B0A5EA125DCA18900688A8A /* Piacevoli.ttf in Resources */,
+				1B0717DB25DF93B8001255CB /* HelvetiPixel.ttf in Resources */,
+				1B0A5ED425DCB77800688A8A /* Silverfinster.ttf in Resources */,
+				1B0A5EE225DCC1B600688A8A /* PearSoda.ttf in Resources */,
+				1B0A5EEE25DCC1E000688A8A /* AprilSans.otf in Resources */,
+				1B07186125E37D47001255CB /* Oskool.ttf in Resources */,
+				1B0717B325DF5B76001255CB /* DigitalDisco Thin.ttf in Resources */,
+				1B0A5EAD25DCA18900688A8A /* KiwiSoda.ttf in Resources */,
+				1B07185825E37B77001255CB /* ldcBlackRound.ttf in Resources */,
+				1B0717C325DF8465001255CB /* Generic Mobile System.ttf in Resources */,
+				1B0A5EB125DCA18900688A8A /* Code.ttf in Resources */,
+				1B0A5EA925DCA18900688A8A /* 8-bit Arcade In.ttf in Resources */,
+				1B0A5EAA25DCA18900688A8A /* Dogica Bold.ttf in Resources */,
+				1B07184025E373D3001255CB /* Minimal4.ttf in Resources */,
+				1B0A5EDD25DCC1A700688A8A /* EnterCommand Bold.ttf in Resources */,
+				1B0A5ED725DCB78500688A8A /* ElfBoyClassic.ttf in Resources */,
+				1B0A5EF425DCC1EE00688A8A /* Squarewave Italic.ttf in Resources */,
+				1B07185525E37AD4001255CB /* BasicHandwriting.ttf in Resources */,
+				1B0A5EA825DCA18900688A8A /* Forma.ttf in Resources */,
+				1B0A5EA525DCA18900688A8A /* Notepen.ttf in Resources */,
+				1B07184F25E378BC001255CB /* Generic.ttf in Resources */,
+				1B0717F925E02B72001255CB /* OwlsNInk.ttf in Resources */,
+				1B0A5E9E25DCA18900688A8A /* Comicoro.ttf in Resources */,
+				1B07183D25E373C6001255CB /* TheWall.ttf in Resources */,
+				1B0717ED25E0266C001255CB /* TomAndJerry.ttf in Resources */,
+				1B0A5EDE25DCC1A700688A8A /* EnterCommand Italic.ttf in Resources */,
+				1B07184625E376BE001255CB /* SylladexFanon.ttf in Resources */,
+				1B0A5EAF25DCA18900688A8A /* OwreKynge.ttf in Resources */,
+				1B0A5EA225DCA18900688A8A /* Pixerif.ttf in Resources */,
+				1B07183725E373A9001255CB /* BetterPixels.ttf in Resources */,
+				1B0A5ECD25DCB0B300688A8A /* European Teletext Nuevo.ttf in Resources */,
+				1B0A5E9C25DCA18900688A8A /* Press Start 2P.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0A5E3C25DB669000688A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0A5E7C25DBA09F00688A8A /* FilterView.swift in Sources */,
+				1B0A5E7525DB8ACA00688A8A /* LabeledValue.swift in Sources */,
+				1B0A5E8325DC78CD00688A8A /* ConfirmationHUD.swift in Sources */,
+				1B0A5E7225DB846A00688A8A /* FamilyDetailView.swift in Sources */,
+				1B0A5E5525DB67E500688A8A /* FontFamily.swift in Sources */,
+				1B2D5407261652EA00EFDF2F /* FontSubmissionView.swift in Sources */,
+				1B43CF45261BB6CC00551740 /* UserDefaults.swift in Sources */,
+				1B0A5E4625DB669000688A8A /* AllFamiliesView.swift in Sources */,
+				1B0A5E4425DB669000688A8A /* SpriteFontsApp.swift in Sources */,
+				1B0A5E7F25DC49DB00688A8A /* FontProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B0A5E4D25DB66A900688A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B0A5E4E25DB66A900688A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B0A5E5025DB66A900688A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sprite Fonts/Sprite Fonts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"Sprite Fonts/Preview Content\"";
+				DEVELOPMENT_TEAM = VA3SY54YU8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sprite Fonts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydenirwin.spritefonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B0A5E5125DB66A900688A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sprite Fonts/Sprite Fonts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"Sprite Fonts/Preview Content\"";
+				DEVELOPMENT_TEAM = VA3SY54YU8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sprite Fonts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydenirwin.spritefonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0A5E3B25DB668F00688A8A /* Build configuration list for PBXProject "Sprite Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0A5E4D25DB66A900688A8A /* Debug */,
+				1B0A5E4E25DB66A900688A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0A5E4F25DB66A900688A8A /* Build configuration list for PBXNativeTarget "Sprite Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0A5E5025DB66A900688A8A /* Debug */,
+				1B0A5E5125DB66A900688A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B07186325E38280001255CB /* XCRemoteSwiftPackageReference "WelcomeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JaydenIrwin/WelcomeKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.6;
+			};
+		};
+		1BD927DC284A8677001329A9 /* XCRemoteSwiftPackageReference "JaydenCodeGenerator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JaydenIrwin/JaydenCodeGenerator";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B07186425E38280001255CB /* WelcomeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B07186325E38280001255CB /* XCRemoteSwiftPackageReference "WelcomeKit" */;
+			productName = WelcomeKit;
+		};
+		1BD927DD284A8677001329A9 /* JaydenCodeGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BD927DC284A8677001329A9 /* XCRemoteSwiftPackageReference "JaydenCodeGenerator" */;
+			productName = JaydenCodeGenerator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1B0A5E3825DB668F00688A8A /* Project object */;
+}
